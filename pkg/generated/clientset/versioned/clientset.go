@@ -23,9 +23,9 @@
 package versioned
 
 import (
-	databasev1alpha "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/typed/deployment/v1alpha"
-	replicationv1alpha "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/typed/replication/v1alpha"
-	storagev1alpha "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned/typed/storage/v1alpha"
+	databasev1alpha "github.com/rglyons/kube-arangodb/pkg/generated/clientset/versioned/typed/deployment/v1alpha"
+	replicationv1alpha "github.com/rglyons/kube-arangodb/pkg/generated/clientset/versioned/typed/replication/v1alpha"
+	storagev1alpha "github.com/rglyons/kube-arangodb/pkg/generated/clientset/versioned/typed/storage/v1alpha"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

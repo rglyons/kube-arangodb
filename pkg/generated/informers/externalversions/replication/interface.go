@@ -23,8 +23,8 @@
 package replication
 
 import (
-	internalinterfaces "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/replication/v1alpha"
+	internalinterfaces "github.com/rglyons/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha "github.com/rglyons/kube-arangodb/pkg/generated/informers/externalversions/replication/v1alpha"
 )
 
 // Interface provides access to each of this group's versions.

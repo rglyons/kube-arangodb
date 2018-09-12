@@ -25,10 +25,10 @@ package v1alpha
 import (
 	time "time"
 
-	replicationv1alpha "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1alpha"
-	versioned "github.com/arangodb/kube-arangodb/pkg/generated/clientset/versioned"
-	internalinterfaces "github.com/arangodb/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/generated/listers/replication/v1alpha"
+	replicationv1alpha "github.com/rglyons/kube-arangodb/pkg/apis/replication/v1alpha"
+	versioned "github.com/rglyons/kube-arangodb/pkg/generated/clientset/versioned"
+	internalinterfaces "github.com/rglyons/kube-arangodb/pkg/generated/informers/externalversions/internalinterfaces"
+	v1alpha "github.com/rglyons/kube-arangodb/pkg/generated/listers/replication/v1alpha"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

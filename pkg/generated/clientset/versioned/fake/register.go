@@ -23,9 +23,9 @@
 package fake
 
 import (
-	databasev1alpha "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1alpha"
-	replicationv1alpha "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1alpha"
-	storagev1alpha "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
+	databasev1alpha "github.com/rglyons/kube-arangodb/pkg/apis/deployment/v1alpha"
+	replicationv1alpha "github.com/rglyons/kube-arangodb/pkg/apis/replication/v1alpha"
+	storagev1alpha "github.com/rglyons/kube-arangodb/pkg/apis/storage/v1alpha"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

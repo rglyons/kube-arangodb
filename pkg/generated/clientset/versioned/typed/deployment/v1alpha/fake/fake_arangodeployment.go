@@ -23,7 +23,7 @@
 package fake
 
 import (
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1alpha"
+	v1alpha "github.com/rglyons/kube-arangodb/pkg/apis/deployment/v1alpha"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	labels "k8s.io/apimachinery/pkg/labels"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

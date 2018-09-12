@@ -25,9 +25,9 @@ package externalversions
 import (
 	"fmt"
 
-	v1alpha "github.com/arangodb/kube-arangodb/pkg/apis/deployment/v1alpha"
-	replicationv1alpha "github.com/arangodb/kube-arangodb/pkg/apis/replication/v1alpha"
-	storagev1alpha "github.com/arangodb/kube-arangodb/pkg/apis/storage/v1alpha"
+	v1alpha "github.com/rglyons/kube-arangodb/pkg/apis/deployment/v1alpha"
+	replicationv1alpha "github.com/rglyons/kube-arangodb/pkg/apis/replication/v1alpha"
+	storagev1alpha "github.com/rglyons/kube-arangodb/pkg/apis/storage/v1alpha"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )
